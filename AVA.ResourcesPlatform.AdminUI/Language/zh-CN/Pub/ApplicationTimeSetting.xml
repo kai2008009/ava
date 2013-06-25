@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <!--录播时间段设置-->
+  <resource name="ApplicationTimeSetting_录播时间段设置">录播时间段设置</resource>
+  <resource name="ApplicationTimeSetting_录播时间段设置列表">录播时间段设置列表</resource>
+  <resource name="ApplicationTimeSetting_录播时间段设置添加">录播时间段设置添加</resource>
+  <resource name="ApplicationTimeSetting_录播时间段设置编辑">录播时间段设置编辑</resource>
+  <resource name="ApplicationTimeSetting_记录不存在">记录不存在</resource>
+
+  <resource name="ApplicationTimeSetting_Guid">Guid</resource>
+  <resource type="ToolTip" name="ApplicationTimeSetting_Guid_记录主键">记录主键</resource>
+
+  <resource name="ApplicationTimeSetting_版本号">版本号</resource>
+
+  <resource name="ApplicationTimeSetting_排序号">排序号</resource>
+  <resource type="ToolTip" name="ApplicationTimeSetting_SortNumber_标示记录在相同学科的记录中的位置">标示记录在相同学科的记录中的位置</resource>
+  <resource type="Valiator" name="ApplicationTimeSetting_SortNumber_排序号不能为空">排序号不能为空</resource>
+  <resource type="Valiator" name="ApplicationTimeSetting_SortNumber_排序号应为数字">排序号应为数字</resource>
+
+  <resource name="ApplicationTimeSetting_DomainName_网站名称">网站名称</resource>
+  <resource name="ApplicationTimeSetting_DomainCode_域编码">域编码</resource>
+  <resource name="ApplicationTimeSetting_所属域">所属域</resource>
+  <resource type="Valiator" name="ApplicationTimeSetting_DomainGuid_请选择所属域">请选择所属域</resource>
+
+  <resource name="ApplicationTimeSetting_第几节课">第几节课</resource>
+  
+  <resource name="ApplicationTimeSetting_是否周末">是否周末</resource>
+  <resource type="Valiator" name="ApplicationTimeSetting_IsWeek_否">否</resource>
+  <resource type="Valiator" name="ApplicationTimeSetting_IsWeek_是">是</resource>
+
+  <resource name="ApplicationTimeSetting_开始时间">开始时间</resource>
+  <resource type="Valiator" name="ApplicationTimeSetting_StartTime_请选择开始时间">请选择开始时间</resource>
+  <resource type="Valiator" name="ApplicationTimeSetting_StartTime_开始时间格式不正确">开始时间格式不正确</resource>
+
+  <resource name="ApplicationTimeSetting_结束时间">结束时间</resource>
+  <resource type="Valiator" name="ApplicationTimeSetting_EndTime_请选择结束时间">请选择结束时间</resource>
+  <resource type="Valiator" name="ApplicationTimeSetting_EndTime_结束时间格式不正确">结束时间格式不正确</resource>
+
+</root>

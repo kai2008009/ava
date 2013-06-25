@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <!--录播设备-->
+  <resource name="RecordEquipment_录播设备">录播设备</resource>
+  <resource name="RecordEquipment_录播设备列表">录播设备列表</resource>
+  <resource name="RecordEquipment_录播设备添加">录播设备添加</resource>
+  <resource name="RecordEquipment_录播设备编辑">录播设备编辑</resource>
+  <resource name="RecordEquipment_记录不存在">记录不存在</resource>
+
+  <resource name="RecordEquipment_录制数量">录制数量</resource>
+  <resource name="RecordEquipment_设备状态">设备状态</resource>
+  <resource name="RecordEquipment_准备就绪">准备就绪</resource>
+  <resource name="RecordEquipment_直播中">直播中</resource>
+  <resource name="RecordEquipment_录制中">录制中</resource>
+  <resource name="RecordEquipment_错误">错误</resource>
+  <resource name="RecordEquipment_登录失败">登录失败</resource>
+  <resource name="RecordEquipment_参数错误">参数错误</resource>
+  <resource name="RecordEquipment_数据错误">数据错误</resource>
+  <resource name="RecordEquipment_无法连接">无法连接</resource>
+  <resource name="RecordEquipment_连接失败">连接失败</resource>
+
+  <resource name="RecordEquipment_Guid">Guid</resource>
+  <resource type="ToolTip" name="RecordEquipment_Guid_记录主键">记录主键</resource>
+
+  <resource name="RecordEquipment_版本号">版本号</resource>
+
+  <resource name="RecordEquipment_排序号">排序号</resource>
+  <resource type="ToolTip" name="RecordEquipment_SortNumber_标示记录在相同学科的记录中的位置">标示记录在相同学科的记录中的位置</resource>
+  <resource type="Valiator" name="RecordEquipment_SortNumber_排序号不能为空">排序号不能为空</resource>
+  <resource type="Valiator" name="RecordEquipment_SortNumber_排序号应为数字">排序号应为数字</resource>
+
+  <resource name="RecordEquipment_状态">状态</resource>
+  <resource type="ToolTip" name="RecordEquipment_Status_标示记录是否有效">标示记录是否有效</resource>
+  <resource type="Valiator" name="RecordEquipment_Status_作废">作废</resource>
+  <resource type="Valiator" name="RecordEquipment_Status_有效">有效</resource>
+
+  <resource name="RecordEquipment_DomainName_网站名称">网站名称</resource>
+  <resource name="RecordEquipment_DomainCode_域编码">域编码</resource>
+  <resource name="RecordEquipment_所属域">所属域</resource>
+  <resource type="Valiator" name="RecordEquipment_DomainGuid_请选择所属域">请选择所属域</resource>
+
+  <resource name="RecordEquipment_设备名称">设备名称</resource>
+  <resource type="Valiator" name="RecordEquipment_Name_请输入设备名称">请输入设备名称</resource>
+
+  <resource name="RecordEquipment_IP地址">IP地址</resource>
+
+  <resource name="RecordEquipment_Web端口">Web端口</resource>
+
+  <resource name="RecordEquipment_节目ID">节目ID</resource>
+  <resource type="Valiator" name="RecordEquipment_ProgramID_节目ID不能为空">节目ID不能为空</resource>
+  <resource type="Valiator" name="RecordEquipment_ProgramID_节目ID应为数字">节目ID应为数字</resource>
+
+  <resource name="RecordEquipment_录播端口号">录播端口号</resource>
+
+  <resource name="RecordEquipment_登录名">登录名</resource>
+
+  <resource name="RecordEquipment_登录密码">登录密码</resource>
+
+  <resource name="RecordEquipment_描述">描述</resource>
+
+  <resource name="RecordEquipment_直播登录名">直播登录名</resource>
+
+  <resource name="RecordEquipment_直播登录密码">直播登录密码</resource>
+
+  <resource name="RecordEquipment_转播重编码">转播重编码</resource>
+
+  <resource name="RecordEquipment_转播数据库链接语句">转播数据库链接语句</resource>
+
+  <resource name="RecordEquipment_转播服务器IP地址">转播服务器IP地址</resource>
+
+  <resource name="RecordEquipment_转播设置ID">转播设置ID</resource>
+  <resource type="ToolTip" name="RecordEquipment_ASAgentID_当设备有转播时当前设置在转播服务器中的ID">当设备有转播时当前设置在转播服务器中的ID</resource>
+
+  <resource name="RecordEquipment_AVA监听端口">AVA监听端口</resource>
+  <resource type="Valiator" name="RecordEquipment_AVAAgentPort_AVA监听端口为数字">AVA监听端口为数字</resource>
+
+  <resource name="RecordEquipment_MMS监听端口">MMS监听端口</resource>
+  <resource type="Valiator" name="RecordEquipment_MMSAgentPort_MMS监听端口为数字">MMS监听端口为数字</resource>
+
+  <resource name="RecordEquipment_AVA播放器收看最大数">AVA播放器收看最大数</resource>
+  <resource type="Valiator" name="RecordEquipment_AVAMaxClientNum_AVA播放器收看最大数为数字">AVA播放器收看最大数为数字</resource>
+
+  <resource name="RecordEquipment_微软播放器收看最大数">微软播放器收看最大数</resource>
+  <resource type="Valiator" name="RecordEquipment_MMSMaxClientNum_微软播放器收看最大数为数字">微软播放器收看最大数为数字</resource>
+
+  <resource name="RecordEquipment_自动重连">自动重连</resource>
+
+  <resource name="RecordEquipment_重连间隔秒数">重连间隔秒数</resource>
+  <resource type="Valiator" name="RecordEquipment_AutoInterval_重连间隔秒数为数字">重连间隔秒数为数字</resource>
+
+  <resource type="Valiator" name="RecordEquipment_ASStatus_转发服务器未开机">转发服务器未开机</resource>
+  <resource type="Valiator" name="RecordEquipment_ASStatus_转发不存在">转发不存在</resource>
+  <resource type="Valiator" name="RecordEquipment_ASStatus_转发转播中">转发转播中</resource>
+  <resource type="Valiator" name="RecordEquipment_ASStatus_转发连接中">转发连接中</resource>
+  <resource type="Valiator" name="RecordEquipment_ASStatus_转发停止">转发停止</resource>
+
+  <resource type="Index" name="RecordEquipment_所属域,设备名称已经存在:{0}">所属域,设备名称已经存在:{0}</resource>
+
+  <resource name="RecordEquipment_AgentServerName_服务器名称">转播服务器</resource>
+  <resource name="RecordEquipment_所属转播服务">所属转播服务</resource>
+  <resource type="Valiator" name="RecordEquipment_RecordEquipmentGuid_请选择所属转播服务">请选择所属转播服务</resource>
+
+  <resource name="RecordEquipment_IP路由">IP路由</resource>
+  <resource type="ToolTip" name="RecordEquipment_IPRoute_IP路由分配，请用|分隔转换前后IP，多个请用换行分开">IP路由分配，请用|分隔转换前后IP，多个请用换行分开</resource>
+
+  <resource name="RecordEquipment_是否录制Video1">是否录制Video1</resource>
+  
+  <resource name="RecordEquipment_是否录制Video2">是否录制Video2</resource>
+
+  <resource name="RecordEquipment_自动录制">自动录制</resource>
+
+  <resource name="RecordEquipment_停止录制不停止直播">停止录制不停止直播</resource>
+</root>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <!--转播服务-->
+  <resource name="AgentServer_转播服务">转播服务</resource>
+  <resource name="AgentServer_转播服务列表">转播服务列表</resource>
+  <resource name="AgentServer_转播服务添加">转播服务添加</resource>
+  <resource name="AgentServer_转播服务编辑">转播服务编辑</resource>
+  <resource name="AgentServer_记录不存在">记录不存在</resource>
+
+  <resource name="AgentServer_Guid">Guid</resource>
+  <resource type="ToolTip" name="AgentServer_Guid_记录主键">记录主键</resource>
+
+  <resource name="AgentServer_版本号">版本号</resource>
+
+  <resource name="AgentServer_服务器名称">服务器名称</resource>
+  <resource type="Valiator" name="AgentServer_Name_请输入服务器名称">请输入服务器名称</resource>
+
+  <resource name="AgentServer_服务器Web地址">服务器Web地址</resource>
+  <resource type="Valiator" name="AgentServer_IPAddress_请输入服务器Web地址">请输入服务器Web地址</resource>
+
+  <resource name="AgentServer_数据库实例">数据库实例</resource>
+  <resource type="Valiator" name="AgentServer_DBServer_请输入数据库实例">请输入数据库实例</resource>
+
+  <resource name="AgentServer_数据库名">数据库名</resource>
+  <resource type="Valiator" name="AgentServer_DBName_请输入数据库名">请输入数据库名</resource>
+
+  <resource name="AgentServer_转播SID">转播SID</resource>
+  <resource type="Valiator" name="AgentServer_DBUser_请输入转播SID">请输入数据库用户</resource>
+
+  <resource name="AgentServer_数据库密码">数据库密码</resource>
+  <resource type="Valiator" name="AgentServer_DBPassword_请输入数据库密码">请输入数据库密码</resource>
+
+  <resource name="AgentServer_IP路由">IP路由</resource>
+  <resource type="ToolTip" name="AgentServer_IPRoute_IP路由分配，请用|分隔转换前后IP，多个请用换行分开">IP路由分配，请用|分隔转换前后IP，多个请用换行分开</resource>
+
+</root>
