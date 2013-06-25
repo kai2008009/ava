@@ -206,7 +206,7 @@ break;
             <nobr><a href="edit.aspx?guid=<%= item.Guid %>"><%= DefineEnum.修改.Define() %></a></nobr>
         </td>
         <td>
-            <span class="spnRecondEquipmentControler" id='spn<%= item.Guid %>' onclick='GetMyStatus("<%= SetKey(item.Guid,item.Version) %>","<%= item.Guid %>");' style="cursor: pointer">
+            <span id='spn<%= item.Guid %>' onclick='GetMyStatus("<%= SetKey(item.Guid,item.Version) %>","<%= item.Guid %>");' style="cursor: pointer">
                         查看状态
                     </span>
         </td>
@@ -246,12 +246,7 @@ break;
         %>
         <td>
             <span title="<%= item.Name.ToString(string.Empty).ToScriptTag() %>">
-                
-            <nobr>
                 <%= item.Name %>
-                <a href="http://<%= item.IPAddress %>:<%= item.WebPort %>/Login.html?UserID=<%= item.LoginName %>&password=<%= item.Password %>" target="_blank" style="color:blue">管理</a>
-            
-                </nobr>
             </span>
         </td>
         <%
@@ -383,23 +378,9 @@ break;
 
     function GetMyStatus(key, guid) {
         $("#spn" + guid).html("更新中...");
-        $("#spn" + guid).css("color", "");
         RecordEquipmentAjax.GetRecordEquipmentStatus(key, null, function (result) {
             $("#spn" + guid).html(result.Data);
-            if (result.Data == '<%= Define.Get("RecordEquipment_直播中") %>')
-            {
-                $("#spn" + guid).css("color", "green");
-            }
-            else if (result.Data == '<%= Define.Get("RecordEquipment_录制中") %>')
-            {
-                $("#spn" + guid).css("color", "blue");
-            }
-            else if (result.Data == '<%= Define.Get("RecordEquipment_准备就绪") %>') {
-                $("#spn" + guid).css("color", "chocolate");
-            }
-            else if (result.Data == "") {
-                $("#spn" + guid).css("color", "");
-            }
+
         });
     }
 </script>
